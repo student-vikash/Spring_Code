@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="in.viru.beans.Student3" id="stObj1">
+        <property name="name" value="Vikash Kumar Rana"></property>
+        <property name="enrollment" value="0177CS211181"></property>
+    </bean>
+    <bean class="in.viru.beans.Student3" id="stObj2">
+        <property name="name" value="Sachin Virat"></property>
+        <property name="enrollment" value="0177CS211181"></property>
+    </bean>
+</beans>
